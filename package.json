@@ -2,9 +2,9 @@
   "name": "webfly-log",
   "version": "1.0.0",
   "description": "Webfly Logger Interface",
-  "main": "index.js",
+  "main": "lib/Logger",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,21 @@
     "webfly",
     "cli"
   ],
+  "files": [
+    "lib",
+    "test"
+  ],
   "author": "Adel Lamallam",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afroware/webfly-log/issues"
   },
-  "homepage": "https://github.com/afroware/webfly-log#readme"
+  "homepage": "https://github.com/afroware/webfly-log#readme",
+  "dependencies": {
+    "bower-logger": "^0.2.2"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.3"
+  }
 }
