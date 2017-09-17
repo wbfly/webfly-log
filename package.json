@@ -1,0 +1,24 @@
+{
+  "name": "webfly-log",
+  "version": "1.0.0",
+  "description": "Webfly Logger Interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afroware/webfly-log.git"
+  },
+  "keywords": [
+    "log",
+    "webfly",
+    "cli"
+  ],
+  "author": "Adel Lamallam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afroware/webfly-log/issues"
+  },
+  "homepage": "https://github.com/afroware/webfly-log#readme"
+}
