@@ -1,3 +1,8 @@
+/**
+ *
+ * @Author lamallam
+ */
+
 var expect = require('expect.js');
 var EventEmitter = require('events').EventEmitter;
 var Logger = require('../');

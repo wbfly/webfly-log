@@ -1,4 +1,7 @@
-# webfly-log [![Build Status](https://secure.travis-ci.org/afroware/webfly-log.git?branch=master)](http://travis-ci.org/afroware/webfly-log)
+# webfly-log 
+Webfly Logger interface 
+
+[![Build Status](https://travis-ci.org/afroware/webfly-log.svg?branch=master)](https://travis-ci.org/afroware/webfly-log)
 
 The logger used in the various architecture components of Webfly.
 
