@@ -1,6 +1,6 @@
 {
   "name": "webfly-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webfly Logger Interface",
   "main": "lib/Logger",
   "scripts": {
@@ -25,9 +25,8 @@
     "url": "https://github.com/afroware/webfly-log/issues"
   },
   "homepage": "https://github.com/afroware/webfly-log#readme",
-
   "devDependencies": {
     "expect.js": "0.3.1",
-    "mocha": "^3.5.3"
+    "mocha": "3.5.3"
   }
 }
